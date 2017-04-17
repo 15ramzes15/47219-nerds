@@ -32,13 +32,16 @@
                 <h1>Магазин готовых шаблонов</h1>
             </div>            
         </header>
-        <main class="main-menu">
+        <main>
             <div class="container">
+                <form action="">
                 <fieldset class="items-options">
                     <legend>Стоимость</legend>
                     <input type="range" min="0" max="100" step="1" value="50">
                     <input type="text" size="5"> -
                     <input type="text" size="5">
+                </fieldset>
+                <fieldset class="items-options">       
                     <legend>Особенности:</legend>
                     <input type="radio" name="goodies-group" id="option1" checked="checked">
                     <label for="option1">Адаптивная</label>
@@ -46,6 +49,8 @@
                     <label for="option2">Фиксированная</label>    
                     <input type="radio" name="goodies-group" id="option3">
                     <label for="option3">Резиновая</label>
+                </fieldset>
+                <fieldset class="items-options">       
                     <legend>Сетка:</legend>
                     <input type="checkbox" name="manufacturers" id="option1" checked="checked">
                     <label for="option1">Слайдер</label>
@@ -59,54 +64,57 @@
                     <label for="option5">Корзина</label>
                     <button type="submit">Показать</button>
                 </fieldset>
+                </form>
                 <div class="content">
-                    <ul>
-                        <li><a href="#">По цене</a></li>
-                        <li><a href="#">По типу</a></li>
-                        <li><a href="#">По функционалу</a></li>
-                    </ul>
+                    <div class="sort">
+                        <ul>
+                            <li><a href="#">По цене</a></li>
+                            <li><a href="#">По типу</a></li>
+                            <li><a href="#">По функционалу</a></li>
+                        </ul>
+                    </div>
                     <span class="up-sort"><a href="#"></a></span>
                     <span class="down-sort"><a href="#"></a></span>
                     <div class="items">
                         <div class="description">
                             <b>Sedona</b>
                             <p>Информационный сайт для туристов</p>
-                            <span class="price"><a href="#">9 900РУБ.</a></span>
+                            <a class="price" href="#">9 900руб.</a>
                         </div>
                     </div>
                     <div class="items">
                         <div class="description">
                             <b>Pink App</b>
                             <p>Продуктовый лендинг приложения для iOS и Android</p>
-                            <span class="price"><a href="#">9 900РУБ.</a></span>
+                            <a class="price" href="#">9 900руб.</a>
                         </div>
                     </div>
                     <div class="items">
                         <div class="description">
                             <b>Barbershop</b>
                             <p>Сайт салоны красоты. Для мужчин, да.</p>
-                            <span class="price"><a href="#">9 900РУБ.</a></span>
+                            <a class="price" href="#">9 900руб.</a>
                         </div>
                     </div>
                     <div class="items">
                         <div class="description">
                             <b>MISHKA</b>
                             <p>Интернет-магазин вязаных игрушек</p>
-                            <span class="price"><a href="#">9 900РУБ.</a></span>
+                            <a class="price" href="#">9 900руб.</a>
                         </div>
                     </div>
                     <div class="items">
                         <div class="description">
                             <b>A Plus</b>
                             <p>Лендинг курсов повышения квалификации</p>
-                            <span class="price"><a href="#">9 900РУБ.</a></span>
+                            <a class="price" href="#">9 900руб.</a>
                         </div>
                     </div>
                     <div class="items">
                         <div class="description">
                             <b>КВАСТ</b>
                             <p>Промо-сайт производителя крафтового кваса</p>
-                            <span class="price"><a href="#">9 900РУБ.</a></span>
+                            <a class="price" href="#">9 900руб.</a>
                         </div>
                     </div>
                     <ul class="pages-navigation">
@@ -124,8 +132,8 @@
                         <section class="adress">
                             <h2>NЁRDS DESIGN STUDIO</h2>
                             <p>191186, Санкт-Петербург,
-                            ул. Б. Конюшенная, д. 19/8
-                            тел. +7 (812) 275-75-75</p>
+                            ул. Б. Конюшенная, д. 19/8</p>
+                            <p>тел. +7 (812) 275-75-75</p>
                         </section>
                     </div>
                     <div class="main-footer">
