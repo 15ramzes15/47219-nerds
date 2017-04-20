@@ -1,0 +1,15 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+  font-style: "Roboto";
+}
+
+.main-title {
+  font-size: 55px;
+  line-height: 55px;
+  color: #000;
+  font-weight: 500;
+  font-style: "Roboto";
+}
