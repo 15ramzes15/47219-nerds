@@ -7,68 +7,86 @@
 	</head>
 	<body>
 		<header class="main-header">
-			<div class="wrapper">
-				<div class="main-navigation">
-					<a href="#"></a>
-					<nav class="main-navigation">
-						<ul>
-							<li>
-								<a href="#">Студия</a>
-							</li>
-							<li>
-								<a href="#">Клиенты</a>
-							</li>
-							<li>
-								<a>Магазин</a>
-							</li>
-							<li>
-								<a href="#">Контакты</a>
-							</li>
-						</ul>
-					</nav>
+			<div class="wrapper clearfix">
+				<div class="logo">
+					<a href="#"><img src="img/logo.png" width="160" height="65" alt="Logo Nerds"></a>
+				</div>
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a href="#">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<a>Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
 					<div class="user-block">
 						<a class="login" href="#">Корзина</a>
 					</div>    
-				</div>
-				<h1 class="main-title">Магазин готовых шаблонов</h1>
+					<h1 class="main-title">Магазин готовых шаблонов</h1>
 			</div>            
 		</header>
 		<main>
-			<div class="wrapper">
+			<div class="wrapper clearfix">
 				<form action="">
 				<fieldset class="items-options">
-						<legend>Стоимость</legend>
+						<legend class="sort-description">Стоимость</legend>
 						<input type="range" min="0" max="100" step="1" value="50">
-						<input type="text" size="5"> -
-						<input type="text" size="5">
+						<div class="range-fields">
+							<input type="text" size="5"> -
+							<input type="text" size="5">
+						</div>
 				</fieldset>
 				<fieldset class="items-options">       
 						<legend>Особенности:</legend>
-						<input type="radio" name="goodies-group" id="option1" checked="checked">
-						<label for="option1">Адаптивная</label>
-						<input type="radio" name="goodies-group" id="option2">
-						<label for="option2">Фиксированная</label>    
-						<input type="radio" name="goodies-group" id="option3">
-						<label for="option3">Резиновая</label>
+						<div class="radio">
+							<input type="radio" name="goodies-group" id="option1" checked="checked">
+							<label for="option1">Адаптивная</label>
+						</div>
+						<div class="radio">
+							<input type="radio" name="goodies-group" id="option2">
+							<label for="option2">Фиксированная</label>
+						</div>
+						<div class="radio">
+							<input type="radio" name="goodies-group" id="option3">
+							<label for="option3">Резиновая</label>
+						</div>
 				</fieldset>
 				<fieldset class="items-options">       
 						<legend>Сетка:</legend>
-						<input type="checkbox" name="manufacturers" id="option1" checked="checked">
-						<label for="option1">Слайдер</label>
+						<div class="checkbox">
+							<input type="checkbox" name="manufacturers" id="option1" checked="checked">
+							<label for="option1">Слайдер</label>
+						</div>
+						<div class="checkbox">
 						<input type="checkbox" name="manufacturers" id="option2">
 						<label for="option2">Блок преимуществ</label>
+						</div>
+						<div class="checkbox">
 						<input type="checkbox" name="manufacturers" id="option3" checked="checked">
 						<label for="option3" >Новости</label>
+						</div>
+						<div class="checkbox">
 						<input type="checkbox" name="manufacturers" id="option4">
 						<label for="option4">Галерея</label>
+						</div>
+						<div class="checkbox">
 						<input type="checkbox" name="manufacturers" id="option5">
 						<label for="option5">Корзина</label>
+						</div>
 						<button type="submit">Показать</button>
 				</fieldset>
 				</form>
 				<div class="content">
 					<div class="sort">
-						<b class="sort-description">Сортировка</b>
+						<b class="sort-description">Сортировать:</b>
 						<ul>
 								<li><a href="#">По цене</a></li>
 								<li><a href="#">По типу</a></li>
@@ -78,51 +96,53 @@
 						<span class="down-sort"><a href="#"></a></span>
 					</div>
 					<div class="items">
-						<div class="description">
-							<img scr="img/img-sedona.jpg" width="360" height="616" alt="Макет Седона">
-							<b>Sedona</b>
-							<p>Информационный сайт для туристов</p>
-							<a class="price" href="#">9 900руб.</a>
+						<div class="item">
+							<div class="description">
+								<img scr="img/img-sedona.jpg" width="360" height="616" alt="Макет Седона">
+								<b>Sedona</b>
+								<p>Информационный сайт для туристов</p>
+								<a class="price" href="#">9 900руб.</a>
+							</div>
 						</div>
-					</div>
-					<div class="items">
-						<div class="description">
-							<img scr="img/img-pink.jpg" width="360" height="616" alt="Макет Pink">
-							<b>Pink App</b>
-							<p>Продуктовый лендинг приложения для iOS и Android</p>
-							<a class="price" href="#">9 900руб.</a>
+						<div class="item">
+							<div class="description">
+								<img scr="img/img-pink.jpg" width="360" height="616" alt="Макет Pink">
+								<b>Pink App</b>
+								<p>Продуктовый лендинг приложения для iOS и Android</p>
+								<a class="price" href="#">9 900руб.</a>
+							</div>
 						</div>
-					</div>
-					<div class="items">
-						<div class="description">
-							<img scr="img/img-barbershop.jpg" width="360" height="616" alt="Макет Barbershop">
-							<b>Barbershop</b>
-							<p>Сайт салоны красоты. Для мужчин, да.</p>
-							<a class="price" href="#">9 900руб.</a>
+						<div class="item">
+							<div class="description">
+								<img scr="img/img-barbershop.jpg" width="360" height="616" alt="Макет Barbershop">
+								<b>Barbershop</b>
+								<p>Сайт салоны красоты. Для мужчин, да.</p>
+								<a class="price" href="#">9 900руб.</a>
+							</div>
 						</div>
-					</div>
-					<div class="items">
-						<div class="description">
-							<img scr="img/img-mishka.jpg" width="360" height="616" alt="Макет Mishka">
-							<b>MISHKA</b>
-							<p>Интернет-магазин вязаных игрушек</p>
-							<a class="price" href="#">9 900руб.</a>
+						<div class="item">
+							<div class="description">
+								<img scr="img/img-mishka.jpg" width="360" height="616" alt="Макет Mishka">
+								<b>MISHKA</b>
+								<p>Интернет-магазин вязаных игрушек</p>
+								<a class="price" href="#">9 900руб.</a>
+							</div>
 						</div>
-					</div>
-					<div class="items">
-						<div class="description">
-							<img scr="img/img-aplus.jpg" width="360" height="616" alt="Макет A-Plus">
-							<b>A Plus</b>
-							<p>Лендинг курсов повышения квалификации</p>
-							<a class="price" href="#">9 900руб.</a>
+						<div class="item">
+							<div class="description">
+								<img scr="img/img-aplus.jpg" width="360" height="616" alt="Макет A-Plus">
+								<b>A Plus</b>
+								<p>Лендинг курсов повышения квалификации</p>
+								<a class="price" href="#">9 900руб.</a>
+							</div>
 						</div>
-					</div>
-					<div class="items">
-						<div class="description">
-							<img scr="img/img-kvast.jpg" width="360" height="616" alt="Макет Kvast">
-							<b>КВАСТ</b>
-							<p>Промо-сайт производителя крафтового кваса</p>
-							<a class="price" href="#">9 900руб.</a>
+						<div class="item">
+							<div class="description">
+								<img scr="img/img-kvast.jpg" width="360" height="616" alt="Макет Kvast">
+								<b>КВАСТ</b>
+								<p>Промо-сайт производителя крафтового кваса</p>
+								<a class="price" href="#">9 900руб.</a>
+							</div>
 						</div>
 					</div>
 					<ul class="pages-navigation">
@@ -135,25 +155,31 @@
 				</div>
 			</div>
 		</main>
-		<footer class="main-footer">
-			<div class="wrapper">
+		<div class="map">
+			<div class="wrapper clearfix">
 				<div class="contacts">
 					<section class="adress">
 						<h2>NЁRDS DESIGN STUDIO</h2>
-						<p>191186, Санкт-Петербург,
-						ул. Б. Конюшенная, д. 19/8</p>
-						<p>тел. +7 (812) 275-75-75</p>
-						<img src="img/map.png" alt="Карта с местом расположения нашего офиса" width="1440" height="416 ">
+						<p>191186, Санкт-Петербург,<br> 
+						ул. Б. Конюшенная, д. 19/8<br>
+						тел. +7 (812) 275-75-75</p>
+						<a href="#">Напишите нам</a>
 					</section>
 				</div>
-				<div class="main-footer">
+			</div>
+		</div>
+		<footer class="main-footer">
+			<div class="wrapper clearfix">		
+				<div class="footer-block">
 					<div class="social-block">
 						<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
 						<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
 						<a class="social-btn social-btn-inst" href="#">Инстаграм</a> 
 					</div>
+					<div class="footer-descr">
 						<b>Давайте дружить, это выгодно!</b>
 						<p>Скидка 10% для друзей из социальных сетей.</p>
+					</div>
 				</div>
 			</div>
 		</footer>
