@@ -2,6 +2,8 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/index.css">
 		<title>HTML Academy: Нёрдс</title>
 	</head>
@@ -20,7 +22,7 @@
 							<a href="#">Клиенты</a>
 						</li>
 						<li>
-							<a href="#">Магазин</a>
+							<a href="catalog.html">Магазин</a>
 						</li>
 						<li>
 							<a href="#">Контакты</a>
@@ -31,19 +33,42 @@
 					<a class="login" href="#">Корзина</a>
 				</div>	    
 				<div class="slider">
-					<div class="slider-descr">
-						<b class="slider-title">Долго, дорого, скрупулезно.</b>
-						<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-						<a href="#">Узнать больше</a>
+					<input type="radio" id="btn-1" name="toggle" checked>
+					<input type="radio" id="btn-2" name="toggle">
+					<input type="radio" id="btn-3" name="toggle">
+					<div class="slider-controls">
+						<label for="btn-1"></label>
+						<label for="btn-2"></label>
+						<label for="btn-3"></label>
 					</div>
-					<div class="slider-img">
-						<img src="img/slide1.png">
-					</div>
-					<div class="slider-pagination">
-
+					<div class="slides">
+						<div class="slide">
+							<div class="slide-text">
+								<div class="slide-title">Долго, дорого, скрупулезно</div>
+								<p>Математически выверенный дизайн<br>
+									для вашего сайта или мобильного приложения.</p>
+								<a class="btn" href="#">Узнать больше</a>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide-text">
+								<div class="slide-title">Дорого, скрупулезно</div>
+								<p>Математически выверенный дизайн<br>
+									для вашего сайта или мобильного приложения.</p>
+								<a class="btn" href="#">Узнать больше</a>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide-text">
+								<div class="slide-title">Скрупулезно</div>
+								<p>Математически выверенный дизайн<br>
+									для вашего сайта или мобильного приложения.</p>
+								<a class="btn" href="#">Узнать больше</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>            
+			</div>	            
 		</header>
 		<main>
 			<div class="wrapper">                 
@@ -52,35 +77,32 @@
 						<img src="img/illustration-1.png" width="300" height="146" alt="Создание сайтов">
 						<h2 class="service-title">Веб-сайты</h2>
 						<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-						<a class="order-btn">Заказать</a>
+						<a class="order-btn r1">Заказать</a>
 					</div>
 					<div class="service-item">
 						<img src="img/illustration-2.png" width="300" height="146" alt="Создание приложений">
 						<h2 class="service-title">Приложения</h2>
 						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-						<a class="order-btn">Заказать</a>
+						<a class="order-btn g2">Заказать</a>
 					</div>
 					<div class="service-item">
 						<img src="img/illustration-3.png" width="300" height="146" alt="Создание презентаций">
 						<h2 class="service-title">Презентации</h2>
 						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-						<a class="order-btn">Заказать</a>
+						<a class="order-btn y3">Заказать</a>
 					</div>                                        
 				</div>
-				<hr>
+				<div class="divider"></div>
 				<div class="about clearfix">
 					<div class="left-column">
 						<h2>Мы — маленькая, но гордая дизайн-студия из Краснодара. </h2>
 						<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
 						<b>Выполняем заказы на разработку:</b>
-						<ul>
-							<li>Веб-сайтов любой сложности</li>
-							<li>Мобильных приложений для iOS и Android</li>
-							<li>Слайдшоу и видео для корпоративных презентаций</li>
-						</ul>
+							<a>Веб-сайтов любой сложности</a>
+							<a>Мобильных приложений для iOS и Android</a>
+							<a>Слайдшоу и видео для корпоративных презентаций</a>
 					</div>
 					<div class="right-column">
-						<img src="img/nerds-illustration.png" alt=""> 
 						<b>С 2004 года любим точность во всем:</b> 
 						<div class="percents-block">
 							<div class="percents-block-item">
@@ -89,36 +111,36 @@
 								<span class="description">Уровень самоотдачи</span>
 							</div>
 							<div class="percents-block-item">
-								<span class="number">148</span>
+								<span class="number">100</span>
 								<span class="percentage">&#37;</span>
-								<span class="description">Уровень самоотдачи</span>
+								<span class="description">Соблюдение сроков</span>
 							</div>
 							<div class="percents-block-item">
-								<span class="number">148</span>
+								<span class="number">50</span>
 								<span class="percentage">&#37;</span>
-								<span class="description">Уровень самоотдачи</span>
+								<span class="description">Минимальная предоплата</span>
 							</div>
 						</div>
 					</div>	
-					<hr>
+					<div class="divider"></div>
 					<div class="logo-block clearfix">
 						<a href="#"><img src="img/logo-1.png" alt="HTML Academy"></a>
 						<a href="#"><img src="img/logo-2.png" alt="Barbershop Borodinski"></a>
 						<a href="#"><img src="img/logo-3.png" alt="Ping"></a>
 						<a href="#"><img src="img/logo-4.png" alt="Mishka"></a>
 					</div>
-					<hr>   
+					<div class="divider"></div>   
 				</div>
 			</div>
 		</main>
-		<div class="map">
-			<div class="wrapper clearfix">
+		<div class="map" id="map-canvas">
+			<div class="wrapper">
 				<div class="contacts">
 					<section class="adress">
 						<h2>NЁRDS DESIGN STUDIO</h2>
 						<p>191186, Санкт-Петербург,<br> 
-						ул. Б. Конюшенная, д. 19/8<br>
-						тел. +7 (812) 275-75-75</p>
+						ул. Б. Конюшенная, д. 19/8</p>
+						<span class="tel">тел. +7 (812) 275-75-75</span>
 						<a href="#">Напишите нам</a>
 					</section>
 				</div>
@@ -138,6 +160,6 @@
 					</div>
 				</div>
 			</div>
-		</footer>   
+		</footer>
 	</body>
 </html>
