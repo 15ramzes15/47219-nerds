@@ -98,11 +98,12 @@ body {
 .login::before {
   content: "";
   position: absolute;
-  top: 8px;
+  top: 6px;
   left: 43px;
   height: 18px;
   width: 18px;
-  background: transparent url("../img/cart-icon.png") no-repeat;
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -25px -24px;
 }
 
 .login:hover {
