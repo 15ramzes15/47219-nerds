@@ -35,11 +35,11 @@
 					<h1 class="main-title-inner-page">Магазин готовых шаблонов</h1>
 			</div>            
 		</header>
-		<main>
+		<main class="main-inner">
 			<div class="wrapper clearfix">
-				<form action="">
-				<fieldset class="items-options">
-						<legend class="sort-description">Стоимость:</legend>
+				<form action="https://echo.htmlacademy.ru" method="post">
+				<fieldset class="items-options-range">
+						<legend class="main-sort-description">Стоимость:</legend>
 						<div class="range-filter">
 							<div class="range-controls">
 								<div class="scale">
@@ -55,7 +55,7 @@
 						</div>
 				</fieldset>
 				<fieldset class="items-options">       
-						<legend class="sort-description">Особенности:</legend>
+						<legend class="sort-description">Сетка:</legend>
 							<input type="radio" name="goodies-group" id="option1" checked="checked">
 							<label for="option1">Адаптивная</label>
 							<input type="radio" name="goodies-group" id="option2">
@@ -64,7 +64,7 @@
 							<label for="option3">Резиновая</label>
 				</fieldset>
 				<fieldset class="items-options">       
-						<legend class="sort-description">Сетка:</legend>
+						<legend class="sort-description">Особенности:</legend>
 							<input type="checkbox" name="manufacturers" id="option4" checked>
 							<label for="option4">Слайдер</label>
 							<input type="checkbox" name="manufacturers" id="option5">
@@ -86,7 +86,7 @@
 								<li><a href="#">По типу</a></li>
 								<li><a href="#">По названию</a></li>
 						</ul>
-						<span class="down-sort"><a href="#"></a></span>
+						<span class="down-sort"><a class="active-arrow" href="#"></a></span>
 						<span class="up-sort"><a href="#"></a></span>
 					</div>
 					<div class="items">
@@ -139,13 +139,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="pages-navigation">
-						<a class="selected-page">1</a>
-						<a href="#">2</a>
-						<a href="#">3</a>
-						<a href="#">4</a>
-						<a class="next-page" href="#">Следующая</a>
-					</div>
+					<ul class="pages-navigation">
+						<li><a class="selected-page">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a class="next-page" href="#">Следующая</a></li>
+					</ul>
 				</div>
 			</div>
 		</main>
