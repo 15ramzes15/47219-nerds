@@ -2,13 +2,11 @@ body {
   margin: 0;
   padding: 0;
   min-width: 1160px;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", "Arial", sans-serif;
 }
-
 
 .clearfix::after {
   content: "";
@@ -16,11 +14,9 @@ body {
   clear: both;
 }
 
-
 .main-header {
   padding-top: 35px;
   max-height: 545px;
-
   color: #000;
   background-color: #eee;
 }
@@ -104,10 +100,8 @@ body {
   position: absolute;
   top: 8px;
   left: 43px;
-
   height: 18px;
   width: 18px;
-
   background: transparent url("../img/cart-icon.png") no-repeat;
 }
 
@@ -300,7 +294,6 @@ main {
   margin-top: 30px;
   border-radius: 3px;
   text-align: center;
-
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
@@ -418,10 +411,8 @@ main {
   position: absolute;
   top: 10px;
   left: 1px;
-
   width: 25px;
   height: 2px;
-
   background-color: #fb565a;
 }
 
@@ -507,19 +498,16 @@ main {
   position: absolute;
   top: 18px;
   left: -21px;
-
   height: 52px;
   width: 2px;
   background-color: #eee;
 }
-
 
 .logo-block a:nth-child(3)::before {
   content: "";
   position: absolute;
   top: 0;
   left: -22px;
-
   height: 52px;
   width: 2px;
   background-color: #eee;
@@ -531,7 +519,6 @@ main {
   position: absolute;
   top: 12px;
   left: -21px;
-
   height: 52px;
   width: 2px;
   background-color: #eee;
@@ -567,7 +554,7 @@ main {
 }
 
 .map {
-  position: relative;
+  position:relative;
   margin: 0;
   padding: 0;
   height: 416px;
@@ -575,14 +562,13 @@ main {
   background-image: url("../img/map-marker-bg.png");
   background-repeat: no-repeat;
   background-position: 0px -180px;
-  z-index: 1;
-}
 
+}
 
 .contacts {
   position: absolute;
   top: 53px;
-  left: 14%;
+  left: 0%;
   width: 219px;
   padding: 50px;
   background-color: #fff;
@@ -654,7 +640,6 @@ main {
   width: 77px;
   height: 77px;
   margin: 0;
-
   vertical-align: top;
   border-radius: 40px;
   margin-right: 11px;
@@ -692,10 +677,8 @@ main {
   position: absolute;
   top: 95px;
   left: 115px;
-
   height: 30px;
   width: 30px;
-
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -15px -304px;
 }
@@ -705,10 +688,8 @@ main {
   position: absolute;
   top: 93px;
   left: 205px;
-
   height: 30px;
   width: 30px;
-
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -20px -374px;
 }
@@ -756,8 +737,6 @@ main {
   text-align: center;
 }
 
-
-
 .inner-nav {
   padding-bottom: 86px;
 }
@@ -765,7 +744,6 @@ main {
 .main-header-inner {
   padding-top: 36px;
   height: 318px;
-
   color: #000;
   background-color: #eee;
 }
@@ -780,10 +758,8 @@ main {
   right: 20px;
   bottom: -5px;
   left: 0;
-
   width: 100%;
   height: 4px;
-
   background-color: #fb565a;
 }
 
@@ -1043,7 +1019,6 @@ button[type="submit"] {
   color: #000;
   font-weight: 700;
   text-transform: uppercase;
-  
 }
 
 button[type="submit"]:hover {
@@ -1168,7 +1143,6 @@ button[type="submit"]:active {
 
 .description {
   position: absolute;
-  
   bottom: 0;
   width: 360px;
   height: 230px;
@@ -1277,51 +1251,15 @@ button[type="submit"]:active {
   text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .modal-content {
   position: absolute;
   top: 1810px;
   left: 50%;
   margin-left: -480px;
-
   width: 760px;
   padding: 65px 100px;
   color: #000;
   display: none;
-
   background-color: #fff;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   z-index: 2000;
@@ -1335,12 +1273,9 @@ button[type="submit"]:active {
   position: absolute;
   top: 76px;
   right: 88px;
-
   width: 22px;
   height: 22px;
-
   font-size: 0;
-
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -25px -236px;
   opacity: 0.3;
@@ -1379,13 +1314,11 @@ button[type="submit"]:active {
   margin-right: 32px;
 }
 
-
 .right {
   display: inline-block;
   width: 360px;
   margin-bottom: 35px;
 }
-
 
 .modal-content form {
   margin: 0;
@@ -1400,25 +1333,20 @@ button[type="submit"]:active {
   margin: 0;
   border: 2px solid #d7dcde;
   border-radius: 3px;
-
   font-family: inherit; 
   font-size: 16px;
   line-height: 18px;
   color: #444;
 }
 
-
 textarea {
   display: block;
   width: 725px;
   height: 114px;
   margin: 0;
-  padding: 14px 12px;
-
-  
+  padding: 14px 12px; 
   border: 2px solid #d7dcde;
   border-radius: 3px;
-
   font-family: inherit; 
   font-size: 16px;
   line-height: 18px;
@@ -1453,7 +1381,6 @@ textarea {
   animation-duration: 0.6s;
 }
 
-
 @keyframes shake {
  0%, 100% { transform: translateX(0); }
  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
@@ -1467,7 +1394,6 @@ textarea {
 .main-header-login {
   height: 136px;
   padding-top: 35px;
-
   color: #000;
   background-color: #eee;
 }
@@ -1485,6 +1411,12 @@ textarea {
   width: 756px;
 }
 
+.modal-content-inner label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
 .login-form-alternative input[type="text"],
 .login-form-alternative input[type="email"] { 
   width: 332px;  
@@ -1492,7 +1424,6 @@ textarea {
   margin: 0;
   border: 2px solid #d7dcde;
   border-radius: 3px;
-
   font-family: inherit; 
   font-size: 16px;
   line-height: 18px;
