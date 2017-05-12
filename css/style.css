@@ -1236,7 +1236,7 @@ button[type="submit"]:active {
 }
 
 .price {
-  display:inline-block;
+  display: inline-block;
   width: 200px;
   margin-left: 80px;
   margin-top: 10px;
@@ -1248,6 +1248,7 @@ button[type="submit"]:active {
   font-weight: 500;
   color: #fff;
   padding: 12px 0;
+  vertical-align: top;
   text-align: center;
   cursor: pointer;
 }
